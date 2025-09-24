@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-dashboard">
+  <header class="topbar">
+    <div class="left">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.oB4TGDWXblBI2dNmog1YqwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="logo" class="mini-logo">
+      <h2 class="site-title">GECT Dashboard</h2>
+    </div>
+
+    <div class="right">
+      <input class="search" placeholder="Search courses, events..." />
+      <button class="icon-btn">🔔</button>
+      <button class="icon-btn">⚙️</button>
+      <img src="https://thumbs.dreamstime.com/z/student-girl-flat-style-beautiful-vector-icon-avatar-eps-81506314.jpg" class="profile" alt="Profile">
+    </div>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <div class="profile-card">
+        <img src="https://thumbs.dreamstime.com/z/student-girl-flat-style-beautiful-vector-icon-avatar-eps-81506314.jpg" alt="user" class="avatar">
+        <h3>Zanha E N</h3>
+        <p class="muted small">Government Engineering College Thrissur</p>
+      </div>
+
+      <nav class="nav">
+        <a href="home.html" class="active">Home</a>
+        <a href="resources.html">Resources</a>
+        <a href="#">Calendar</a>
+        <a href="#">Settings</a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <section class="welcome card">
+        <div>
+          <h3>Hi Zanha 👋</h3>
+          <p class="muted">Welcome to your dashboard</p>
+        </div>
+
+        <div class="quick-stats">
+          <div class="stat">
+            <div class="stat-title">CGPA</div>
+            <div class="stat-value">7.26</div>
+          </div>
+          <div class="stat">
+            <div class="stat-title">Attendance</div>
+            <div class="stat-value traffic yellow">66%</div>
+          </div>
+          <div class="stat">
+            <div class="stat-title">Pending</div>
+            <div class="stat-value">3</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="courses card">
+        <div class="section-header">
+          <h4>Courses</h4>
+          <a class="view-all" href="#">View all</a>
+        </div>
+
+        <div class="card-grid small">
+          <div class="subject bg-teal">
+            <div class="sub-title">Python</div>
+            <div class="sub-grade">A</div>
+          </div>
+          <div class="subject bg-yellow">
+            <div class="sub-title">Computer Graphics</div>
+            <div class="sub-grade">B+</div>
+          </div>
+          <div class="subject bg-pink">
+            <div class="sub-title">Compiler Design</div>
+            <div class="sub-grade">A-</div>
+          </div>
+          <div class="subject bg-lav">
+            <div class="sub-title">Network Lab</div>
+            <div class="sub-grade">75</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="calendar-tasks card two-col">
+        <div>
+          <h4>Today's classes</h4>
+          <ul class="tiny-list">
+            <li>Computer Graphics — 10:00</li>
+            <li>Economics — 11:30</li>
+            <li>Network Lab — 2:00</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Pending work</h4>
+          <ul class="tiny-list">
+            <li>Assignment: Network Lab</li>
+            <li>Essay: Indian Economy</li>
+            <li>UI design for mini project</li>
+          </ul>
+        </div>
+      </section>
+
+    </main>
+
+    <aside class="rightcol">
+      <section class="card events">
+        <h4>Events</h4>
+        <ul class="event-list">
+          <li>UDZN - Kyyakh '24</li>
+          <li>Sandshores '24</li>
+          <li>Designathon '24</li>
+          <li>CodeStorm '24</li>
+        </ul>
+        <a href="resources.html" class="view-all">View all</a>
+      </section>
+
+      <section class="card mini">
+        <h4>Notifications</h4>
+        <p class="muted small">Verify your email • Exam registration open</p>
+      </section>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <p class="muted">Made with ❤️ — simple student dashboard demo</p>
+  </footer>
+</body>
+</html>
